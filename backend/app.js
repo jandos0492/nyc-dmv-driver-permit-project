@@ -29,11 +29,7 @@ app.use(express.static(path.join(__dirname, "public"))); // Serve static files f
 
 // Example route
 // const router = require("./routes/index");
-const router = express.Router();
-router.get("/hello", (req, res) => {
-  res.send("<h1>Example route works good</h1>");
-});
-
+const router = require("./routes/index");
 app.use(router); // Mount the router to the app
 
 // Error handling middleware
