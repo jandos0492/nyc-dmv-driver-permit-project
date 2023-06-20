@@ -1,0 +1,39 @@
+{
+  "name": "nyc-dmv-driver-permit",
+  "scripts": {
+    "db:create": "dotenv sequelize-cli db:create",
+    "db:drop": "dotenv sequelize-cli db:drop",
+    "db:migrate": "dotenv sequelize-cli db:migrate",
+    "db:migrate:undo:all": "dotenv sequelize-cli db:migrate:undo:all",
+    "db:redo": "npm run db:seed:undo:all && npm run db:migrate:undo:all && npm run db:migrate && npm run db:seed:all",
+    "db:seed:all": "dotenv sequelize-cli db:seed:all",
+    "db:seed:undo:all": "dotenv sequelize-cli db:seed:undo:all",
+    "migration:generate": "sequelize-cli migration:generate",
+    "model:generate": "sequelize-cli model:generate",
+    "seed:generate": "sequelize-cli seed:generate",
+    "start": "per-env",
+    "start:development": "dotenv nodemon ./bin/www",
+    "start:production": "dotenv ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-bearer-token": "^2.4.0",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "per-env": "^1.0.2",
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.2.1",
+    "nodemon": "^2.0.22"
+  }
+}
