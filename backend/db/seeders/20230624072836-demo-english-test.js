@@ -577,7 +577,7 @@ module.exports = {
             "You should remain polite to aggressive drivers"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 53,
           "question": "One of the rules of defensive driving is:",
@@ -588,7 +588,7 @@ module.exports = {
             "Be confident that you can avoid danger at the last minute"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 54,
           "question": "Seat belts can be most effective as injury preventive devices when they are worn by:",
@@ -599,7 +599,7 @@ module.exports = {
             "Passengers and the driver whenever they are in the car"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 55,
           "question": "A safe speed to drive your car:",
@@ -610,7 +610,7 @@ module.exports = {
             "Depends on the mechanical skill of the driver"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 56,
           "question": "Driving in a state of rage can:",
@@ -621,7 +621,7 @@ module.exports = {
             "All of these choices"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 57,
           "question": "What is true of work zones?",
@@ -632,7 +632,7 @@ module.exports = {
             "Rear-end collisions are the most common type of crash in work zones"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 58,
           "question": "Aggressive driving can become road rage. What should you do when confronted by an aggressive driver?",
@@ -643,7 +643,7 @@ module.exports = {
             "Make eye contact with the driver"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 59,
           "question": "Which of the following may describe a work zone sign?",
@@ -654,7 +654,7 @@ module.exports = {
             "A yellow circle with black letters"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 60,
           "question": "On a New York State highway where there is no posted speed limit, the fastest you may legally drive is:",
@@ -665,7 +665,7 @@ module.exports = {
             "65 mph"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 61,
           "question": "Minimum speed signs are designed to:",
@@ -676,7 +676,7 @@ module.exports = {
             "Assure pedestrian safety"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 62,
           "question": "On long trips you can prevent drowsiness by:",
@@ -687,7 +687,7 @@ module.exports = {
             "Moving your eyes from side to side as you drive"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 63,
           "question": "Signs that warn \"lane closed ahead\" may indicate a work zone ahead. You should:",
@@ -709,7 +709,7 @@ module.exports = {
             "How physically fit you are"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 65,
           "question": "On average, the human body can dispose of the alcohol in 12 ounces of beer in about:",
@@ -720,7 +720,7 @@ module.exports = {
             "Five hours"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 66,
           "question": "Which of the following is true? People driving under the influence of alcohol are:",
@@ -731,7 +731,7 @@ module.exports = {
             "Only a problem to those who drink"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 67,
           "question": "Which of the following statements is true about BAC (blood alcohol content)?",
@@ -742,7 +742,7 @@ module.exports = {
             "After drinking, coffee or a cold shower will lower your BAC"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 68,
           "question": "A chemical test is used to measure:",
@@ -753,7 +753,7 @@ module.exports = {
             "Driving ability"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 69,
           "question": "What kinds of drugs, other than alcohol, can affect your driving ability?",
@@ -764,7 +764,7 @@ module.exports = {
             "All of these choices"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 70,
           "question": "Which of the following does alcohol affect?",
@@ -775,7 +775,7 @@ module.exports = {
             "All of these choices"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 71,
           "question": "Which of the following influence the effects of alcohol?",
@@ -786,7 +786,7 @@ module.exports = {
             "All three choices"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 72,
           "question": "What are the consequences that can result from driving under the influence of alcohol or other drugs?",
@@ -797,7 +797,7 @@ module.exports = {
             "All of these choices"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 73,
           "question": "If you drink alcohol socially, what helps ensure safe driving?",
@@ -808,7 +808,7 @@ module.exports = {
             "Stop drinking one half hour before driving"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 74,
           "question": "A driver who is taking a non-prescription drug should:",
@@ -819,7 +819,7 @@ module.exports = {
             "Drive only during daylight hours"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 75,
           "question": "Drinking coffee after drinking alcohol:",
@@ -830,7 +830,7 @@ module.exports = {
             "Increases blood alcohol content"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 76,
           "question": "What effect does drinking alcohol and taking a prescription drug or over the counter medicine have?",
@@ -841,7 +841,7 @@ module.exports = {
             "No effect, they are difference substances"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 77,
           "question": "What is the only effective way to reduce your blood alcohol content (BAC)?",
@@ -852,7 +852,7 @@ module.exports = {
             "Taking a cold shower"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 78,
           "question": "What effect might alcohol and another drug have when combined in your blood?",
@@ -863,7 +863,7 @@ module.exports = {
             "Reduce the effects of the alcohol"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 79,
           "question": "Which of the following does not happen after drinking?",
@@ -874,7 +874,7 @@ module.exports = {
             "You calm down so you can concentrate"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 80,
           "question": "What happens to your driver license if you refuse to take a chemical test (breath or blood)?",
@@ -885,7 +885,7 @@ module.exports = {
             "None of these choices"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 81,
           "question": "Drinking alcohol and driving is:",
@@ -896,7 +896,7 @@ module.exports = {
             "Only dangerous to the driver who drinks"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 82,
           "question": "What does alcohol do to your driving skills and judgment?",
@@ -907,7 +907,7 @@ module.exports = {
             "It has no effect on judgment but it harms driving skills"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 83,
           "question": "In this state, what BAC (blood alcohol content) is evidence of intoxication?",
@@ -929,7 +929,7 @@ module.exports = {
             "Wearing glasses with lightly tinted lenses"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 85,
           "question": "If an approaching train is near enough or going fast enough to be a danger, you must:",
@@ -940,7 +940,7 @@ module.exports = {
             "Find an alternative route across tracks"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 86,
           "question": "If your brake pedal suddenly sinks to the floor, you should first:",
@@ -951,7 +951,7 @@ module.exports = {
             "Apply the parking brake hard to stop the car"
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 87,
           "question": "When driving at night, it is most important for you to:",
@@ -962,7 +962,7 @@ module.exports = {
             "Watch for cars at intersections"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 88,
           "question": "You may drive around or under a gate that is being lowered or raised at a railroad crossing:",
@@ -973,7 +973,7 @@ module.exports = {
             "Under no circumstances"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 89,
           "question": "You are getting on a highway which has a very short entrance lane. The safest way for you to enter the flow of traffic would be to:",
@@ -984,7 +984,7 @@ module.exports = {
             "Get up to cruising speed gradually so other cars will see you"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 90,
           "question": "If traffic prevents you from crossing all the way across a set of railroad tracks, you may proceed only when:",
@@ -995,7 +995,7 @@ module.exports = {
             "No trains are in sight"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 91,
           "question": "When you get ready to leave an expressway, you should begin to use your turn signal:",
@@ -1006,7 +1006,7 @@ module.exports = {
             "When you see cars behind you in the exit lane"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 92,
           "question": "What is the appropriate action to take when approaching a railroad crossing that does not have signals (such as lights or crossing gates)?",
@@ -1017,7 +1017,7 @@ module.exports = {
             "Increase speed to get across the tracks quickly"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 93,
           "question": "Your car starts to skid on a slippery road. You should:",
@@ -1028,7 +1028,7 @@ module.exports = {
             "Steer toward the side of the road to get off the wet pavement"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 94,
           "question": "If you drive past your exit on an expressway, you should:",
@@ -1039,7 +1039,7 @@ module.exports = {
             "Make a U-turn at the next service area"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 95,
           "question": "When attempting to stop on a slippery road, the best action to take is:",
@@ -1050,7 +1050,7 @@ module.exports = {
             "Shift into neutral, do not use the brakes"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 96,
           "question": "What vehicles must stop at all railroad crossings?",
@@ -1061,7 +1061,7 @@ module.exports = {
             "Vehicles towing a trailer"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 97,
           "question": "When your right wheels run onto a soft shoulder, what is the best way to get back on the highway?",
@@ -1072,7 +1072,7 @@ module.exports = {
             "Apply the brakes firmly and stop completely"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 98,
           "question": "This sign is a warning that you are approaching:",
@@ -1084,7 +1084,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 2,
           "image": "images/traffic-signs/3.jpg",
-        }, 
+        },
         {
           "no": 99,
           "question": "Why is driving on an expressway different from driving on an ordinary street?",
@@ -1095,7 +1095,7 @@ module.exports = {
             "There is more of a tendency to \"tailgate\""
           ],
           "correctAnswerIndex": 0
-        }, 
+        },
         {
           "no": 100,
           "question": "You have just left an expressway and are starting to drive on an ordinary highway. You should:",
@@ -1106,7 +1106,7 @@ module.exports = {
             "Change gradually to the lower speed limit"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 101,
           "question": "If a tire blows out, the proper thing to do is:",
@@ -1117,7 +1117,7 @@ module.exports = {
             "Shift into neutral, then apply the brakes"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 102,
           "question": "When you drive in heavy fog during daylight hours you should drive with your:",
@@ -1128,7 +1128,7 @@ module.exports = {
             "Headlights on high beam"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 103,
           "question": "Night driving is dangerous because:",
@@ -1139,7 +1139,7 @@ module.exports = {
             "Street lights tend to blur our vision"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 104,
           "question": "Expressways have \"expressway entrance lanes\" (acceleration lanes) so that drivers can:",
@@ -1150,7 +1150,7 @@ module.exports = {
             "Test the pickup of their cars"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 105,
           "question": "Which of the following statements applies to all driving emergency situations?",
@@ -1172,7 +1172,7 @@ module.exports = {
             "A triangular orange sign"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 107,
           "question": "On a road which has no sidewalks a pedestrian should walk on the:",
@@ -1183,7 +1183,7 @@ module.exports = {
             "Side of the road which has the heaviest traffic"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 108,
           "question": "A motorist approaching a bicyclist should:",
@@ -1194,7 +1194,7 @@ module.exports = {
             "Exercise extreme caution"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 109,
           "question": "A bicyclist differs from a motorist in that a bicyclist isn't required to:",
@@ -1205,7 +1205,7 @@ module.exports = {
             "Insure the bicycle"
           ],
           "correctAnswerIndex": 3
-        }, 
+        },
         {
           "no": 110,
           "question": "You want to back out of your driveway. You see children playing nearby. Before you start to move your car you should:",
@@ -1216,7 +1216,7 @@ module.exports = {
             "Tell the children to stay away from the driveway"
           ],
           "correctAnswerIndex": 2
-        }, 
+        },
         {
           "no": 111,
           "question": "A blind person legally has the right-of-way when crossing the street when:",
@@ -1227,7 +1227,7 @@ module.exports = {
             "Wearing dark-colored glasses"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 112,
           "question": "Motorists should be aware that all bicycles used after dark must have:",
@@ -1238,7 +1238,7 @@ module.exports = {
             "Brake lights"
           ],
           "correctAnswerIndex": 1
-        }, 
+        },
         {
           "no": 113,
           "question": "A motorist should know that a bicyclist operating on a roadway must:",
@@ -1261,7 +1261,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/7.jpg",
-        }, 
+        },
         {
           "no": 115,
           "question": "This sign means:",
@@ -1273,7 +1273,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/13.jpg",
-        }, 
+        },
         {
           "no": 116,
           "question": "This sign means:",
@@ -1285,7 +1285,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/16.jpg",
-        }, 
+        },
         {
           "no": 117,
           "question": "This sign means:",
@@ -1297,7 +1297,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 2,
           "image": "images/traffic-signs/14.jpg",
-        }, 
+        },
         {
           "no": 118,
           "question": "This sign is used to prevent:",
@@ -1309,7 +1309,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/4.jpg",
-        }, 
+        },
         {
           "no": 119,
           "question": "This sign means:",
@@ -1321,7 +1321,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 1,
           "image": "images/traffic-signs/12.jpg",
-        }, 
+        },
         {
           "no": 120,
           "question": "This sign means:",
@@ -1333,7 +1333,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/15.jpg",
-        }, 
+        },
         {
           "no": 121,
           "question": "This sign means:",
@@ -1345,7 +1345,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/2.jpg",
-        }, 
+        },
         {
           "no": 122,
           "question": "This sign means:",
@@ -1357,7 +1357,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 2,
           "image": "images/traffic-signs/8.jpg",
-        }, 
+        },
         {
           "no": 123,
           "question": "This sign means:",
@@ -1369,7 +1369,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 1,
           "image": "images/traffic-signs/6.jpg",
-        }, 
+        },
         {
           "no": 124,
           "question": "This sign means:",
@@ -1381,7 +1381,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 3,
           "image": "images/traffic-signs/9.jpg",
-        }, 
+        },
         {
           "no": 125,
           "question": "This sign means:",
@@ -1393,7 +1393,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 1,
           "image": "images/traffic-signs/11.jpg",
-        }, 
+        },
         {
           "no": 126,
           "question": "This sign means:",
@@ -1405,7 +1405,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 1,
           "image": "images/traffic-signs/1.jpg",
-        }, 
+        },
         {
           "no": 127,
           "question": "This sign is a warning that you are approaching:",
@@ -1417,7 +1417,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 2,
           "image": "images/traffic-signs/3.jpg",
-        }, 
+        },
         {
           "no": 128,
           "question": "This sign means:",
@@ -1429,7 +1429,7 @@ module.exports = {
           ],
           "correctAnswerIndex": 2,
           "image": "images/traffic-signs/5.jpg",
-        }, 
+        },
         {
           "no": 129,
           "question": "This sign means:",
