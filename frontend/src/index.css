@@ -11,3 +11,125 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav>button>img {
+  width: 40px;
+  height: 20px;
+}
+
+nav>button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+nav>a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+nav>button>span {
+  padding-bottom: 10px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.home-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid #f1eded;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #F2F2F2;
+  width: 200px;
+  height: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-card a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home-card:hover {
+  color: #666;
+  transform: scale(1.05);
+}
+
+.home > a  {
+  text-decoration: none;
+  color: black;
+}
+
+.home > a > span {
+  color: black;
+}
+
+/* Learn card css */
+.learn-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.learn-card__number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-card__question,
+.learn-card__answer {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.learn-card__question-text,
+.learn-card__answer-text {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.learn-card__question-section {
+  margin-bottom: 30px;
+}
+
+.learn-card__image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* FullTestPageCard css */
+.full-test-page-card__image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}

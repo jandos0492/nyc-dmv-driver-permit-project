@@ -1,0 +1,18 @@
+.full-test-page {
+  margin-top: 100px;
+}
+
+.full-test-page__submit-btn {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.full-test-page__submit-btn:hover {
+  background-color: #45a049;
+}

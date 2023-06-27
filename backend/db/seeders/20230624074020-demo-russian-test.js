@@ -25,7 +25,6 @@ module.exports = {
           "images/traffic-signs/5.jpg",
         ],
         correctAnswerIndex: 1,
-        image: "images/traffic-signs/4.jpg",
       },
       {
         no: 3,
