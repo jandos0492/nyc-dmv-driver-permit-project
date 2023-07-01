@@ -9,6 +9,7 @@ import LearnRussianPage from "./components/LearnRussianPage";
 import FullTestPage from "./components/FullTestPage";
 import FullTestPageRussian from "./components/FullTestPageRussian";
 import ExpressTestPage from "./components/ExpressTestPage";
+import ExpressTestPageRussian from "./components/ExpressTestPageRussian";
 import './App.css';
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
         <Route path="/full-test" element={<FullTestPage />} />
         <Route path="/ru/full-test" element={<FullTestPageRussian />} />
         <Route path="/express-test" element={<ExpressTestPage />} />
+        <Route path="/ru/express-test" element={<ExpressTestPageRussian />} />
       </Routes>
     </div>
   );

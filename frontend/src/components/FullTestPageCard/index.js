@@ -5,8 +5,8 @@ const FullTestPageCard = ({ englishData, submitted }) => {
   const { no, question, answers, correctAnswerIndex, image } = englishData;
   const [selectedAnswer, setSelectedAnswer] = useState("");
 
-  const handleAnswerChange = (event) => {
-    setSelectedAnswer(event.target.value);
+  const handleAnswerChange = (e) => {
+    setSelectedAnswer(e.target.value);
   };
 
   const isImage = image !== null;

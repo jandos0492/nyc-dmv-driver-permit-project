@@ -7,8 +7,8 @@ const FullTestPage = () => {
   const { englishData, loading } = useContext(TestContext);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setSubmitted(true);
   };
 

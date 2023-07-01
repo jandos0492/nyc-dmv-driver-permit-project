@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LearnPage from "../LearnPage";
 import "./EnglishHomePage.css";
 
 const EnglishHomePage = ({ language }) => {

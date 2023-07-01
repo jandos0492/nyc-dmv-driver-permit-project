@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./FullTestPageRussianCard.css";
+import "./ExpressTestPageRussianCard.css";
 
-const FullTestPageRussianCard = ({ russianData, submitted }) => {
-  const { no, question, answers, correctAnswerIndex } = russianData;
+const ExpressTestPageRussianCard = ({ russianData, submitted, idx }) => {
+  const { question, answers, correctAnswerIndex } = russianData;
   const [selectedAnswer, setSelectedAnswer] = useState("");
 
   const handleAnswerChange = (e) => {
@@ -17,7 +17,7 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
 
   return (
     <div className="test-page-card">
-      <h4 className="test-page-card__number">{no}</h4>
+      <h4 className="test-page-card__number">{idx + 1}</h4>
       <div className="test-page-card__content">
         <h3 className="test-page-card__question">{question}</h3>
         <div className="test-page-card__answers">
@@ -34,7 +34,7 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
                 />
                 {!hasImage && <span>{answer}</span>}
                 {hasImage && (
-                  <img src={`/${answer}`} alt="Answer" className="test-page-card__answer-image" />
+                  <img src={`/${answer}`} alt="Ответ" className="test-page-card__answer-image" />
                 )}
               </label>
             );
@@ -46,11 +46,11 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
               "Правильно!"
             ) : (
               <span>
-                Не правильно. Правильный ответ:{" "}
+                Не правильно! Правильный ответ:{" "}
                 {answers[correctAnswerIndex].includes("images") ? (
-                  <img
+                  <img 
                     src={`/${answers[correctAnswerIndex]}`}
-                    alt="Correct Answer"
+                    alt="Правильный ответ"
                     className="test-page-card__correct-answer-image"
                   />
                 ) : (
@@ -65,4 +65,4 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
   );
 };
 
-export default FullTestPageRussianCard;
+export default ExpressTestPageRussianCard;

@@ -8,15 +8,15 @@ const ExpressTestPage = () => {
   const [submitted, setSubmitted] = useState(false);
   const [randomEnglishData, setRandomEnglishData] = useState([]);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setSubmitted(true);
   };
 
   useEffect(() => {
     const shuffledArray = [...englishData].sort(() => Math.random() - 0.5);
-    const randomizedData = shuffledArray.slice(0, 20);
-    setRandomEnglishData(randomizedData);
+    const ranodmData = shuffledArray.slice(0, 20);
+    setRandomEnglishData(ranodmData);
   }, [englishData]);
 
   useEffect(() => {
@@ -34,7 +34,11 @@ const ExpressTestPage = () => {
       <div className="test-page__card-list">
         <form onSubmit={handleSubmit}>
           {randomEnglishData.map((testCard, index) => (
-            <ExpressTestPageCard key={testCard.id} englishData={testCard} submitted={submitted} idx={index} />
+            <ExpressTestPageCard 
+              key={testCard.id} 
+              englishData={testCard} 
+              submitted={submitted} 
+              idx={index} />
           ))}
           <button type="submit" disabled={submitted} className="test-page__submit-btn">
             Submit
