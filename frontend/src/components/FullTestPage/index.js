@@ -29,7 +29,7 @@ const FullTestPage = () => {
           {englishData.map((testCard) => (
             <FullTestPageCard key={testCard.id} englishData={testCard} submitted={submitted} />
           ))}
-          <button type="submit" disabled={submitted} className="full-test-page__submit-btn">
+          <button type="submit" disabled={submitted} className="test-page__submit-btn">
             Submit
           </button>
         </form>

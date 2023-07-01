@@ -29,7 +29,7 @@ const FullTestPageRussian = () => {
             <FullTestPageRussianCard key={testCard.id} russianData={testCard} submitted={submitted} />
           ))}
           <button type="submit" disabled={submitted} className="test-page__submit-btn">
-            Submit
+            Отправить
           </button>
         </form>
       </div>
