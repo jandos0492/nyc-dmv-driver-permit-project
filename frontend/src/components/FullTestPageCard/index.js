@@ -38,11 +38,11 @@ const FullTestPageCard = ({ englishData, submitted }) => {
           ))}
         </div>
         {submitted && (
-          <p className={`test-page-card__result ${resultClass}`}>
+          <span className={`test-page-card__result ${resultClass}`}>
             {selectedAnswer === String(correctAnswerIndex)
               ? "Correct answer!"
               : `Incorrect! The correct answer is: ${answers[correctAnswerIndex]}`}
-          </p>
+          </span>
         )}
       </div>
     </div>

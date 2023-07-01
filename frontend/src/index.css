@@ -131,7 +131,16 @@ nav>button>span {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .home {
+    padding: 10px;
+    justify-content: start;
+  }
 
+  .home-card {
+    max-height: 120px;
+  }
+}
 
 /* Learn card css */
 .learn-card {
