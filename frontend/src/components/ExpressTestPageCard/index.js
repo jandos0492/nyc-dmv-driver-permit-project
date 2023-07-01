@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./FullTestPageCard.css";
+import "./ExpressTestPageCard.css";
 
-const FullTestPageCard = ({ englishData, submitted }) => {
-  const { no, question, answers, correctAnswerIndex, image } = englishData;
+const ExpressTestPageCard = ({ englishData, submitted, idx }) => {
+  const { question, answers, correctAnswerIndex, image } = englishData;
   const [selectedAnswer, setSelectedAnswer] = useState("");
 
   const handleAnswerChange = (event) => {
@@ -19,7 +19,7 @@ const FullTestPageCard = ({ englishData, submitted }) => {
 
   return (
     <div className="test-page-card">
-      <h4 className="test-page-card__number">{no}</h4>
+      <h4 className="test-page-card__number">{idx + 1}</h4>
       <div className="test-page-card__content">
         {isImage && <img src={image} alt="Question" className="test-page-card__image" />}
         <h3 className="test-page-card__question">{question}</h3>
@@ -49,4 +49,4 @@ const FullTestPageCard = ({ englishData, submitted }) => {
   );
 };
 
-export default FullTestPageCard;
+export default ExpressTestPageCard;

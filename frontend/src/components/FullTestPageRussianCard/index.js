@@ -11,16 +11,16 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
 
   const resultClass = submitted
     ? selectedAnswer === String(correctAnswerIndex)
-      ? "full-test-page-card__result-correct"
-      : "full-test-page-card__result-incorrect"
+      ? "test-page-card__result-correct"
+      : "test-page-card__result-incorrect"
     : "";
 
   return (
-    <div className="full-test-page-card">
-      <h4 className="full-test-page-card__number">{no}</h4>
-      <div className="full-test-page-card__content">
-        <h3 className="full-test-page-card__question">{question}</h3>
-        <div className="full-test-page-card__answers">
+    <div className="test-page-card">
+      <h4 className="test-page-card__number">{no}</h4>
+      <div className="test-page-card__content">
+        <h3 className="test-page-card__question">{question}</h3>
+        <div className="test-page-card__answers">
           {answers.map((answer, index) => {
             const hasImage = answer.includes("images");
             return (
@@ -34,14 +34,14 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
                 />
                 {!hasImage && <span>{answer}</span>}
                 {hasImage && (
-                  <img src={`/${answer}`} alt="Answer" className="full-test-page-card__answer-image" />
+                  <img src={`/${answer}`} alt="Answer" className="test-page-card__answer-image" />
                 )}
               </label>
             );
           })}
         </div>
         {submitted && (
-          <p className={`full-test-page-card__result ${resultClass}`}>
+          <p className={`test-page-card__result ${resultClass}`}>
             {selectedAnswer === String(correctAnswerIndex) ? (
               "Правильно!"
             ) : (
@@ -51,7 +51,7 @@ const FullTestPageRussianCard = ({ russianData, submitted }) => {
                   <img
                     src={`/${answers[correctAnswerIndex]}`}
                     alt="Correct Answer"
-                    className="full-test-page-card__correct-answer-image"
+                    className="test-page-card__correct-answer-image"
                   />
                 ) : (
                   answers[correctAnswerIndex]

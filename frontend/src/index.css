@@ -71,13 +71,40 @@ nav>button>span {
   transform: scale(1.05);
 }
 
+.green {
+  background-color: #5cb671;
+  color: #FFFFFF;
+}
+
+.green:hover {
+  background-color: #58a36a;
+}
+
+.yellow {
+  background-color: #f9cf50;
+  color: #212529;
+}
+
+.yellow:hover {
+  background-color: #f5c638;
+}
+
+.red {
+  background-color: #d66974;
+  color: #FFFFFF;
+}
+
+.red:hover {
+  background-color: #c85863;
+}
+
 .home-card a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
 }
 
-.home>a {
+.home > a {
   text-decoration: none;
   color: black;
 }
@@ -109,7 +136,7 @@ nav>button>span {
 
 .learn-card__question-text,
 .learn-card__answer-text {
-  font-size: 14px;
+  font-size: 15px;
   display: inline-block;
 }
 
@@ -126,11 +153,11 @@ nav>button>span {
 }
 
 /* FullTestPage.css */
-.full-test-page {
+.test-page {
   margin-top: 100px;
 }
 
-.full-test-page__submit-btn {
+.test-page__submit-btn {
   background-color: #4CAF50;
   color: #FFFFFF;
   padding: 10px 20px;
@@ -141,12 +168,12 @@ nav>button>span {
   font-weight: bold;
 }
 
-.full-test-page__submit-btn:hover {
+.test-page__submit-btn:hover {
   background-color: #45a049;
 }
 
 /* FullTestPageCard.css for (russian and english version */
-.full-test-page-card {
+.test-page-card {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 5px;
@@ -155,16 +182,16 @@ nav>button>span {
   margin-right: 40px;
 }
 
-.full-test-page-card__number {
+.test-page-card__number {
   font-size: 18px;
   font-weight: bold;
 }
 
-.full-test-page-card__content {
+.test-page-card__content {
   margin-top: 20px;
 }
 
-.full-test-page-card__image {
+.test-page-card__image {
   display: inline-block;
   vertical-align: middle;
   width: 40px;
@@ -172,7 +199,7 @@ nav>button>span {
   margin-right: 10px;
 }
 
-.full-test-page-card__question {
+.test-page-card__question {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
@@ -180,31 +207,31 @@ nav>button>span {
   font-weight: bold;
 }
 
-.full-test-page-card__answers label {
+.test-page-card__answers label {
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: normal;
 }
 
-.full-test-page-card__answers input[type="radio"] {
+.test-page-card__answers input[type="radio"] {
   margin-right: 10px;
 }
 
-.full-test-page-card__result {
+.test-page-card__result {
   font-size: 14px;
   margin-top: 10px;
 }
 
-.full-test-page-card__result-correct {
+.test-page-card__result-correct {
   color: #038003;
 }
 
-.full-test-page-card__result-incorrect {
+.test-page-card__result-incorrect {
   color: #FF0000;
 }
 
-.full-test-page-card__answer-image {
+.test-page-card__answer-image {
   display: inline-block;
   vertical-align: middle;
   width: 40px;
@@ -212,7 +239,7 @@ nav>button>span {
   margin-left: 10px;
 }
 
-.full-test-page-card__correct-answer-image {
+.test-page-card__correct-answer-image {
   vertical-align: middle;
   width: 40px;
   height: 40px;

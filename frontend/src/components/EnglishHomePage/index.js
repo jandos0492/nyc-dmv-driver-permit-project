@@ -9,13 +9,13 @@ const EnglishHomePage = ({ language }) => {
     <>
       {language === 'english' && (
         <div className="home">
-          <Link to="/learn" className="home-card">
+          <Link to="/learn" className="home-card green">
             <span>Learn</span>
           </Link>
-          <Link to="/full-test" className="home-card">
+          <Link to="/full-test" className="home-card yellow">
             <span>Full Test</span>
           </Link>
-          <Link to="/express-test" className="home-card">
+          <Link to="/express-test" className="home-card red">
             <span>Express Test</span>
           </Link>
         </div>
