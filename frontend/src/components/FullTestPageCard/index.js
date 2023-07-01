@@ -25,7 +25,7 @@ const FullTestPageCard = ({ englishData, submitted }) => {
         <h3 className="full-test-page-card__question">{question}</h3>
         <div className="full-test-page-card__answers">
           {answers.map((answer, index) => (
-            <label key={index}>
+            <label key={index} className="full-test-page-card__label">
               <input
                 type="radio"
                 value={index}

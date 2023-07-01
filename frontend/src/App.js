@@ -7,6 +7,7 @@ import EnglishHomePage from "./components/EnglishHomePage";
 import LearnPage from "./components/LearnPage";
 import LearnRussianPage from "./components/LearnRussianPage";
 import FullTestPage from "./components/FullTestPage";
+import FullTestPageRussian from "./components/FullTestPageRussian";
 import './App.css';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/ru/learn" element={<LearnRussianPage />} />
         <Route path="/full-test" element={<FullTestPage />} />
+        <Route path="/ru/full-test" element={<FullTestPageRussian />} />
       </Routes>
     </div>
   );
