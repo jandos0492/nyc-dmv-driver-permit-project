@@ -11,6 +11,8 @@ import FullTestPageRussian from "./components/FullTestPageRussian";
 import ExpressTestPage from "./components/ExpressTestPage";
 import ExpressTestPageRussian from "./components/ExpressTestPageRussian";
 import './App.css';
+import TrafficSignsPage from "./components/TrafficSignsPage";
+import TrafficSignsPageRussian from "./components/TrafficSignsPageRussian";
 
 function App() {
   const [language, setLanguage] = useState("english");
@@ -43,6 +45,8 @@ function App() {
       <Routes>
         <Route path="/" element={<EnglishHomePage language={language}/>} />
         <Route path="/ru" element={<RussianHomePage language={language} />} />
+        <Route path="/learn-traffic-signs" element={<TrafficSignsPage />} /> 
+        <Route path="/ru/learn-traffic-signs" element={<TrafficSignsPageRussian />} /> 
         <Route path="/learn" element={<LearnPage />} />
         <Route path="/ru/learn" element={<LearnRussianPage />} />
         <Route path="/full-test" element={<FullTestPage />} />

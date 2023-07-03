@@ -9,6 +9,12 @@ const RussianHomePage = ({ language }) => {
     <>
       {language === 'russian' && russianData && (
         <div className="home">
+          <Link to="/ru/learn-traffic-signs" className="home-card grey">
+            <span>Изучите дорожные знаки</span>
+            <p className="card-description">
+              Изучите все необходимые дорожные знаки для прохождения теста на пермит в Нью-Йорке
+            </p>
+          </Link>
           <Link to="/ru/learn" className="home-card green">
            <span>Подготовка</span>
            <p className="card-description">

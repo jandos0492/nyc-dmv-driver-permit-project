@@ -23,8 +23,8 @@ const FullTestPage = () => {
   }
 
   return (
-    <div className="full-test-page">
-      <div className="full-test-page__card-list">
+    <div className="test-page">
+      <div className="test-page__card-list">
         <form onSubmit={handleSubmit}>
           {englishData.map((testCard) => (
             <FullTestPageCard key={testCard.id} englishData={testCard} submitted={submitted} />

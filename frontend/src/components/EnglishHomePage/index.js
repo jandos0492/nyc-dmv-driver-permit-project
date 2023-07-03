@@ -7,6 +7,12 @@ const EnglishHomePage = ({ language }) => {
     <>
       {language === "english" && (
         <div className="home">
+          <Link to="/learn-traffic-signs" className="home-card grey">
+            <span>Learn Traffic Signs</span>
+            <p className="card-description">
+              Learn all the traffic signs for the NYC permit test
+            </p>
+          </Link>
           <Link to="/learn" className="home-card green">
             <span>Learn</span>
             <p className="card-description">

@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+html {
+  margin-bottom: 80px;
+}
+
 /* * {
   border: 1px solid black;
 } */
@@ -142,12 +146,40 @@ nav>button>span {
   }
 }
 
+/* Traffic sign card css */
+.traffic-sign-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.traffic-sign-card__number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.traffic-sign-card__image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.traffic-signs-list {
+  margin-top: 100px;
+}
+
 /* Learn card css */
 .learn-card {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 10px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -183,8 +215,10 @@ nav>button>span {
 
 /* FullTestPage.css */
 .test-page {
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
+
 
 .test-page__submit-btn {
   background-color: #4CAF50;
@@ -215,7 +249,7 @@ nav>button>span {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 5px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 40px;
   margin-right: 40px;
 }
