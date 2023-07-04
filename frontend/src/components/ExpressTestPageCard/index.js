@@ -38,16 +38,16 @@ const ExpressTestPageCard = ({ englishData, submitted, idx, onAnswerSubmit }) =>
                 onChange={handleAnswerChange}
                 disabled={submitted}
               />
-              {answer}
+              <span>{answer}</span>
             </label>
           ))}
         </div>
         {submitted && (
-          <p className={`test-page-card__result ${resultClass}`}>
+          <span className={`test-page-card__result ${resultClass}`}>
             {selectedAnswer === String(correctAnswerIndex)
               ? "Correct answer!"
               : `Incorrect! The correct answer is: ${answers[correctAnswerIndex]}`}
-          </p>
+          </span>
         )}
       </div>
     </div>

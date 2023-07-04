@@ -314,15 +314,17 @@ nav>button>span {
   margin-left: 10px;
 }
 
+.test-page-result {
+  margin: 40px;
+}
+
 .test-page__result-pass {
   color: green;
-  margin: 40px;
   font-size: 18px;
 }
 
 .test-page__result-fail {
   color: red;
-  margin: 40px;
   font-size: 18px;
 }
 
@@ -466,5 +468,18 @@ nav>button>span {
 
   .test-page-card__number {
     margin-bottom: 0;
+  }
+
+  .test-page-card__result {
+    font-size: 12px;
+  }
+
+  .test-page-card__correct-answer-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .test-page-result span {
+    font-size: 14px;
   }
 }
