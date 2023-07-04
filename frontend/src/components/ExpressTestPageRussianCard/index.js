@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./ExpressTestPageRussianCard.css";
 
-const ExpressTestPageRussianCard = ({ russianData, submitted, idx }) => {
+const ExpressTestPageRussianCard = ({ russianData, submitted, idx, onAnswerSubmit }) => {
   const { question, answers, correctAnswerIndex } = russianData;
   const [selectedAnswer, setSelectedAnswer] = useState("");
 
   const handleAnswerChange = (e) => {
     setSelectedAnswer(e.target.value);
+    const isAnswerCorrect = e.target.value === String(correctAnswerIndex);
+    if (isAnswerCorrect) {
+      onAnswerSubmit(true);
+    }
   };
 
   const resultClass = submitted

@@ -14,7 +14,7 @@ module.exports = {
         no: 2,
         image: "/images/traffic-signs/2.jpg",
         descriptionEnglish: '"YIELD" - Slow down as you approach the intersection. Prepare to stop and yield the right-of-way to vehicles and pedestrians in or approaching the interection.',
-        descriptionRussian: '"Уступи дорогу" - Медленно достичь перекркстка. Приготовиться к остановке. Пропустить пешеходов и транспорт на перекрёстке. Полная остановка если того требуют обстоятельства.'
+        descriptionRussian: '"Уступи дорогу" - Медленно достичь перекрёстка. Приготовиться к остановке. Пропустить пешеходов и транспорт на перекрёстке. Полная остановка если того требуют обстоятельства.'
       },
       {
         no: 3,

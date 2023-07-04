@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./FullTestPageCard.css";
 
-const FullTestPageCard = ({ englishData, submitted }) => {
+const FullTestPageCard = ({ englishData, submitted, onAnswerSubmit }) => {
   const { no, question, answers, correctAnswerIndex, image } = englishData;
   const [selectedAnswer, setSelectedAnswer] = useState("");
 
   const handleAnswerChange = (e) => {
     setSelectedAnswer(e.target.value);
+    const isAnswerCorrect = e.target.value === String(correctAnswerIndex);
+    if (isAnswerCorrect) {
+      onAnswerSubmit(true);
+    }
   };
 
   const isImage = image !== null;

@@ -82,6 +82,15 @@ nav>button>span {
   transform: scale(1.05);
 }
 
+.grey {
+  background-color: rgb(240, 235, 235);
+  color: #ffffff;
+}
+
+.grey:hover {
+  background-color: rgb(220, 216, 216);
+}
+
 .green {
   background-color: #75c387;
   color: #ffffff;
@@ -128,24 +137,6 @@ nav>button>span {
   font-size: 14px;
 }
 
-@media screen and (max-width: 900px) {
-  .home {
-    flex-direction: column;
-    margin-top: 100px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .home {
-    padding: 10px;
-    justify-content: start;
-  }
-
-  .home-card {
-    max-height: 120px;
-  }
-}
-
 /* Traffic sign card css */
 .traffic-sign-card {
   background-color: #f5f5f5;
@@ -171,6 +162,10 @@ nav>button>span {
 }
 
 .traffic-signs-list {
+  margin-top: 100px;
+}
+
+.learn-list {
   margin-top: 100px;
 }
 
@@ -317,4 +312,159 @@ nav>button>span {
   width: 40px;
   height: 40px;
   margin-left: 10px;
+}
+
+.test-page__result-pass {
+  color: green;
+  margin: 40px;
+  font-size: 18px;
+}
+
+.test-page__result-fail {
+  color: red;
+  margin: 40px;
+  font-size: 18px;
+}
+
+
+
+/* Making responsive for other devices */
+@media screen and (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: start;
+  }
+
+  .home-card span {
+    font-size: 14px;
+  }
+
+  .card-description {
+    font-size: 12px;
+  }
+
+  .home-card {
+    max-height: 140px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .traffic-sign-card__image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .traffic-sign-card__description {
+    font-size: 14px;
+  }
+
+  .test-page__result-fail,
+  .test-page__result-pass {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .learn-card__number {
+    font-size: 16px;
+  }
+
+  .test-page-card__question {
+    font-size: 14px;
+  }
+
+  .test-page-card__answers label span {
+    font-size: 13px;
+  }
+
+  .test-page-card__answers label {
+    font-size: 13px;
+  }
+
+  .learn-card {
+    padding: 10px;
+  }
+
+  .learn-card__question,
+  .learn-card__answer {
+    height: 5px;
+  }
+
+  .learn-card__question-section {
+    margin-bottom: 15px;
+  }
+
+  .test-page-card {
+    padding: 10px;
+  }
+
+  .test-page-card__number {
+    font-size: 16px;
+  }
+
+  .test-page-card__question {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .home {
+    margin-top: 50px;
+  }
+
+  .home-card {
+    max-height: 100px;
+    margin-bottom: 5px;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  nav button span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .traffic-sign-card {
+    padding: 5px;
+  }
+
+  .traffic-sign-card__image {
+    height: 40px;
+    width: 40px;
+  }
+
+  .traffic-sign-card__description {
+    font-size: 13px;
+  }
+
+  .test-page-card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .test-page-card__question {
+    font-size: 13px;
+    margin: 10px 0;
+  }
+
+  .test-page-card__answers label span {
+    font-size: 12px;
+  }
+
+  .test-page-card__answer-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .test-page-card__number {
+    margin-bottom: 0;
+  }
 }
