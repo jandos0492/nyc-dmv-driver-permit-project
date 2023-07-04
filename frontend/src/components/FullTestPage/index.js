@@ -36,15 +36,19 @@ const FullTestPage = () => {
     const percentage = calculatePercentage();
     if (submitted && percentage >= 70) {
       return (
-        <span className="test-page__result-pass">
-          Congratulations! You passed the test. Your score is: {percentage}%.
-        </span>
+        <div className="test-page-result">
+          <span className="test-page__result-pass">
+            Congratulations! You passed the test. Your score is: {percentage}%.
+          </span>
+        </div>
       )
     } else if (submitted && percentage <= 70) {
       return (
-        <span className="test-page__result-fail">
-          You failed. Your score is: {percentage}%. You need to get at least 70% to pass the test.
-        </span>
+        <div className="test-page-result">
+          <span className="test-page__result-fail">
+            You failed. Your score is: {percentage}%. You need to get at least 70% to pass the test.
+          </span>
+        </div>
       )
     } else {
       return null;

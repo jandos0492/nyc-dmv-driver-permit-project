@@ -42,15 +42,19 @@ const ExpressTestPageRussian = () => {
     const percentage = calculatePercentage();
     if (submitted && percentage >= 70) {
       return (
-        <span className="test-page__result-pass">
-          Поздравляем! Вы успешно прошли тест. Ваш результат: {percentage}%.
-        </span>
+        <div className="test-page-result">
+          <span className="test-page__result-pass">
+            Поздравляем! Вы успешно прошли тест. Ваш результат: {percentage}%.
+          </span>
+        </div>
       )
     } else if (submitted && percentage <= 70) {
       return (
-        <span className="test-page__result-fail">
-          Вы не прошли тест! Ваш результат: {percentage}%. Вам нужно набрать 70% и более, чтобы пройти тест.
-        </span>
+        <div className="test-page-result">
+          <span className="test-page__result-fail">
+            Вы не прошли тест! Ваш результат: {percentage}%. Вам нужно набрать 70% и более, чтобы пройти тест.
+          </span>
+        </div>
       )
     } else {
       return null;
@@ -67,11 +71,11 @@ const ExpressTestPageRussian = () => {
       <div className="test-page__card-list">
         <form onSubmit={handleSubmit}>
           {randomRussianData.map((testCard, index) => (
-            <ExpressTestPageRussianCard 
-              key={testCard.id} 
-              russianData={testCard} 
+            <ExpressTestPageRussianCard
+              key={testCard.id}
+              russianData={testCard}
               submitted={submitted}
-              idx={index} 
+              idx={index}
               onAnswerSubmit={handleAnswerSubmit}
             />
           ))}
