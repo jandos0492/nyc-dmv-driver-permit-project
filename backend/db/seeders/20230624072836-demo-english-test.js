@@ -1,10 +1,24 @@
 'use strict';
 
+let options = {}
+if (process.env.NODE_ENV === 'production') {
+  options.schema = process.env.SCHEMA;
+  // define your schema in options object
+}
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    return queryInterface.bulkInsert("EnglishTests",
-      [
+    /**
+    * Add seed commands here.
+    *
+    * Example:
+    * await queryInterface.bulkInsert('People', [{
+    *   name: 'John Doe',
+    *   isBetaMember: false
+    * }], {});
+   */
+    options.tableName = "EnglishTests";
+    return queryInterface.bulkInsert(options, [
         {
           "no": 1,
           "question": "A solid white line on the right edge of the highway slants in toward your left. This shows that:",
@@ -1442,7 +1456,8 @@ module.exports = {
           "correctAnswerIndex": 2,
           "image": "images/traffic-signs/10.jpg",
         },
-      ])
+      ], {}
+      )
   },
 
   async down(queryInterface, Sequelize) {

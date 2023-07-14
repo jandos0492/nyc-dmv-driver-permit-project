@@ -21,9 +21,18 @@ if (!isProduction) {
   app.use(cors()); // enabling cors in development
 }
 
-app.use(helmet({
-  contentSecurityPolicy: false
-})); // Set various security-related headers
+app.use(cors({ origin: ["http://localhost:8080", "https://nyc-dmv-permit.onrender.com"] }));
+
+// helmet helps set a variety of headers to better secure your app
+app.use(
+  helmet.crossOriginResourcePolicy({
+    policy: "cross-origin",
+    directives: {
+      defaultSrc: ["'self'"],
+      connectSrc: ["'self'", "http://localhost:8080"],
+    }
+  })
+);
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the public directory
 
