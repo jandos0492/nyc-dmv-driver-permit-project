@@ -12,17 +12,17 @@ export const TestProvider = ({ children }) => {
     const fetchData = async () => {
       try {
         // Fetching the englishData
-        const englishResponse = await fetch("http://localhost:8080/api/english");
+        const englishResponse = await fetch("/api/english");
         const englishData = await englishResponse.json();
         setEnglishData(englishData);
 
         // Fetching the russianData
-        const russianResponse = await fetch("http://localhost:8080/api/russian");
+        const russianResponse = await fetch("/api/russian");
         const russianData = await russianResponse.json();
         setRussianData(russianData);
 
         // Fetching the trafficSignsData
-        const trafficSignsResponse = await fetch("http://localhost:8080/api/traffic-signs");
+        const trafficSignsResponse = await fetch("/api/traffic-signs");
         const trafficSignsData = await trafficSignsResponse.json();
         setTrafficSignsData(trafficSignsData);
 
