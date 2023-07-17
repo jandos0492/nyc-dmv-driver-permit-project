@@ -14,7 +14,7 @@
     "db:drop": "npx sequelize-cli db:drop",
     "db:migrate": "npx sequelize-cli db:migrate",
     "db:migrate:undo:all": "dotenv sequelize-cli db:migrate:undo:all",
-    "db:redo": "npm run db:seed:undo:all && npm run db:migrate:undo:all && npm run db:migrate && npm run db:seed:all",
+    "db:redo": "npx sequelize-cli db:seed:undo:all && npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
     "db:seed:all": "npx sequelize-cli db:seed:all",
     "db:seed:undo:all": "npx sequelize-cli db:seed:undo:all",
     "migration:generate": "npx sequelize-cli migration:generate",
