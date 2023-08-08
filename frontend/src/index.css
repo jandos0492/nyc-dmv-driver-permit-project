@@ -328,6 +328,10 @@ nav>button>span {
   font-size: 18px;
 }
 
+.home-icon {
+  font-size: 28px;
+}
+
 
 
 /* Making responsive for other devices */
@@ -430,6 +434,10 @@ nav>button>span {
 
   nav button span {
     font-size: 12px;
+  }
+
+  .home-icon {
+    font-size: 20px;
   }
 }
 
