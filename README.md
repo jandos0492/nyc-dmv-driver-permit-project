@@ -7,6 +7,7 @@ You can access the live project here: [NYC Practice Permit Test](https://nyc-pra
 ## Table of Contents
 - [Screenshots](#screenshots)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -39,6 +40,19 @@ Here are some screnshots of the NYC DMV Driver Permit Website:
 - **Randomized Quizzes:** Take randomized quizzes to simulate the variability of the real exam.
 - **Immediate Feedback:** Receive instant feedback on your answers and learn from explanations for both correct and incorrect choices.
 - **Responsive Design:** The web application is designed to work seamlessly across various devices, including desktops, tablets, and smartphones.
+
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+- HTML5
+- CSS
+- JavaScript
+- React.js
+- Context API
+- React Router
+- Express
+- Postgres
+- Sequelize
 
 
 <h2 id="getting-started">Getting Started</h2>
